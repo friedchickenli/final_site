@@ -1,6 +1,6 @@
 //realized that OAuth Token expires after an hour, might need to go to https://developer.spotify.com/console/get-search-item/ and replace it with a new token!
 var token =
-'BQCVITayJgs67wugYa9yfhATU3t2yJSyxgBZEkRkUSa7XMlAJNvExK0fA9GHHXNn9mXPAv2olX8y1scRtrJyYUA2oRFBl2LlwQRPVkRimtzuwM6iv5D_bQew7Quf39bWPy-SztG_xh0l';
+'BQAyfjKrO0M0MfnCQ4ffF22mT28kMk-2i25YBWZvhO8MIjHQDoHQCykrzQmES6unmL3-R-nvxSpH0QYh3d6azPBqsQvroOPQYO-H46pTyK-JbVlFmnz2QM4eDR3zTnyNkVB3DK1HFlQH';
 var user_keyboard='';
 var endpoint = 'https://api.spotify.com/v1/search';
 

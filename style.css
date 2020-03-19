@@ -6,10 +6,52 @@ body{
   display: flex;
   justify-content: center;
   align-items: center; */
+  padding: 5%;
   font-family: 'Roboto', sans-serif;
+  background:lightblue;
+  
 
 }
+input {
+  padding: 8px;
+  font-size: 14px;
+}
 
+button {
+  cursor: pointer;
+  padding: 10px 16px;
+  margin-left: 12px;
+  font-size: 14px;
+  background: lightgreen;
+  outline: none;
+  border-color: transparent;
+  transition: all 0.2s;
+}
+button:hover {
+  background: transparent;
+  border: lightgreen 1px solid;
+  color: lightgreen;
+}
 #search{
   padding-bottom:20px;
+}
+
+.results {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5%;
+  row-gap: 2.5%;
+}
+
+img{
+  width:100%;
+}
+
+h2{
+  padding-top: 10px;
+  font-size: 30px;
+}
+h3{
+  font-size: 20px;
 }
