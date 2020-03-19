@@ -40,8 +40,8 @@ function renderData(albums){
   $('.results').append(`
     <div class="album-item">
      <img src="${album.images[0].url}"/>
-     <h2>${album.artists[0].name}</h2>
-     <h3>${album.name}</h3>
+     <h2>${album.name}</h2>
+     <h3>${album.artists[0].name}</h3>
     </div>
   
 `)
