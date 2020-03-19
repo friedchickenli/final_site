@@ -38,13 +38,12 @@ function search(input){
 function renderData(albums){
  albums.forEach(function(album){
   $('.results').append(`
-  <div class="row">
-    <div class="col-sm">
+    <div class="album-item">
      <img src="${album.images[0].url}"/>
      <h2>${album.artists[0].name}</h2>
      <h3>${album.name}</h3>
     </div>
-  </div>
+  
 `)
  })
 }

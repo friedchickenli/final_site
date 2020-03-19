@@ -8,7 +8,8 @@ body{
   align-items: center; */
   padding: 5%;
   font-family: 'Roboto', sans-serif;
-  background:lightblue;
+  background:rgb(20, 29, 22);
+  color:white;
   
 
 }
@@ -40,7 +41,7 @@ button:hover {
   margin-top: 5%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 5%;
+  column-gap: 10%;
   row-gap: 2.5%;
 }
 
@@ -54,4 +55,14 @@ h2{
 }
 h3{
   font-size: 20px;
+  opacity: 0.6;
+}
+.album-item{
+  transition: all 0.2s;
+  border: transparent 1px solid;
+  padding: 10px;
+  
+}
+.album-item:hover{
+  border-color: gray;
 }
